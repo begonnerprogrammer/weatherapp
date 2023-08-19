@@ -183,11 +183,32 @@ body {
   margin-bottom: 50px;
 }
 
-/*Resize the wrap to see the search bar change!*/
-/* .wrap {
+/* Resize the wrap to see the search bar change!*/ 
+ /* .wrap {
   width: 30%;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 } */
+
+
+@media(max-width:450px){
+  .widget{
+    max-width: 365px;
+  }
+  .temperature{
+font-size: 15px !important;
+margin-right: 0;
+  }
+  .weatherCondition{
+    font-size: 15px !important;
+  }
+  .weatherInfo{
+   flex-basis: 60%;
+  }
+  .date{
+    flex-basis: 40%;
+    font-size: 15px !important;
+  }
+}
