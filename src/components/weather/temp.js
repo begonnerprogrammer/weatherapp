@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import Weathercard from "./weathercard"
 export const Temp = () => {
 const [tempinfo,settempinfo]=useState({})
-const [serachvalue,setSearchvalue]=useState("pune");
+const [serachvalue,setSearchvalue]=useState("lahore");
 const getApi=async()=>{
 try{
 let url=`https://api.openweathermap.org/data/2.5/weather?q=${serachvalue}&units=metric&appid=d1a98a54273f7339a699f4c2be749eae`;
